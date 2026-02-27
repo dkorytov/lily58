@@ -64,19 +64,29 @@
     combos {
         compatible = "zmk,combos";
 
-        macro_backspace {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <45 46>;
-        };
-
-        macro_delete {
-            bindings = <&kp DEL>;
-            key-positions = <47 48>;
-        };
-
         escape_combo {
             bindings = <&kp ESCAPE>;
             key-positions = <0 1>;
+        };
+
+        left {
+            bindings = <&kp LEFT>;
+            key-positions = <44 45>;
+        };
+
+        down {
+            bindings = <&kp DOWN>;
+            key-positions = <46 47>;
+        };
+
+        right {
+            bindings = <&kp RIGHT>;
+            key-positions = <49 48>;
+        };
+
+        up {
+            bindings = <&kp UP>;
+            key-positions = <20 21>;
         };
     };
 
